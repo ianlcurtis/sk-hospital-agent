@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: sk-hospital-agent Debug",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/sk-hospital-agent/bin/Debug/net8.0/sk-hospital-agent.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/sk-hospital-agent",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}
